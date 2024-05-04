@@ -43,7 +43,7 @@ public class UserDTO {
 		return "name=" + name + "\nage=" + age + "\naddress=" + address ;
 	}
 	//Get builder instance
-	public static builder2.UserDTOBuilder getBuilder() {
+	public static UserDTOBuilder getBuilder() {
 		return new UserDTOBuilder();
 	}
 	//Builder

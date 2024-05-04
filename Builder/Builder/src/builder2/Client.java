@@ -9,8 +9,8 @@ public class Client {
 	public static void main(String[] args) {
 		User user = createUser();
 		// Client has to provide director with concrete builder
-		UserDTO dto = directBuild(UserDTO.getBuilder(), user);
-		System.out.println(dto);
+		//UserDTO dto = directBuild(UserDTO.getBuilder(), user);
+		//System.out.println(dto);
 	}
 
 	/**

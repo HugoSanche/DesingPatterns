@@ -61,6 +61,7 @@ public class UsuarioDTO {
             this.estadoCivil=estadoCivil;
             return this;
         }
+
         public UsuarioDTO build(){
             return new UsuarioDTO(this);
         }
